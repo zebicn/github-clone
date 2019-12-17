@@ -1,0 +1,441 @@
+* {
+    box-sizing: border-box;
+}
+
+
+form {
+    margin-right: 30%;
+    width: fit-content;
+
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    word-wrap: break-word;
+}
+
+.navbar-brand {
+    margin-left: 20%;
+}
+
+
+.navbar {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: hsla(0, 0%, 100%, .7);
+    background-color: #24292e;
+
+}
+
+.btn-outline {
+    color: white;
+    border: 1px solid white;
+}
+
+.btn:hover {
+    color: lightgray;
+}
+
+.btn-outline-1 {
+    color: white;
+}
+
+.form-control .mr-sm-2 .input-sm {
+    background-color: #495057;
+}
+
+.form-control {
+    vertical-align: middle;
+    width: 100%;
+    max-width: 100%;
+    display: table;
+    background-color: hsla(0, 0%, 100%, .125);
+    border: 0;
+    box-shadow: none;
+}
+
+
+/* ICONS */
+
+.fa-check-double {
+    color: springgreen;
+}
+
+.fa-code-branch {
+    margin-right: 5px;
+}
+
+.fa-star {
+    margin-right: 5px;
+}
+
+.fa-eye {
+    margin-right: 5px;
+}
+
+.fa-laptop-code {
+    margin-right: 5px;
+}
+
+.fa-github {
+    margin-right: 17px;
+}
+
+.fa-chevron-down {
+    margin-left: 5px;
+    color: hsla(0, 0%, 100%, .125);
+}
+
+/* ICONS */
+
+
+/* BUTTONS */
+
+.btn-secondary {
+    background-color: #F7F8FA;
+    color: black;
+    font-weight: 500;
+    border: 1px solid rgba(27, 31, 35, .2);
+    display: inline-block;
+    position: relative;
+    float: right;
+    overflow: hidden;
+    border-radius: 1px;
+}
+
+.btn.counter-btn {
+    margin-right: 20px;
+}
+
+.counter-btn {
+    color: black;
+    background-color: white;
+}
+
+.pagehead, .main-box {
+    padding-bottom: 0;
+
+}
+
+/* BUTTONS */
+
+.pagehead {
+    position: relative;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+
+}
+
+
+.details-container {
+    margin-bottom: 25px;
+
+}
+
+
+span .username {
+    font-size: 22px;
+
+}
+
+span .username2 {
+    font-size: 22px;
+    font-weight: 500;
+    color: blue;
+}
+
+a {
+    color: #24292e;
+}
+
+span .username {
+    color: blue;
+}
+
+#nav-contact-tab {
+    font-size: 14px;
+
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-top-color: #e36209;
+    border-top-width: thick;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+    margin-top: 7px;
+
+}
+
+.btn-secondary.dropdown-toggle {
+
+    background-color: #F7F8FA;
+    border: 1px solid rgba(27, 31, 35, .2);
+    float: left;
+    margin-top: 23px;
+    overflow: hidden;
+    border-radius: 1px;
+    width: fit-content;
+}
+
+.form-control1 {
+    width: fit-content;
+}
+
+
+.btn-secondary.dropdown-toggle:hover {
+    text-decoration: none;
+}
+
+.form-control1 {
+    margin-top: 24px;
+    display: inline-block;
+    height: 37px;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    width: 308px;
+}
+
+
+.d-flex {
+
+    margin-bottom: -32px;
+    background-color: #f6f8fa;
+    border: 1px solid #d1d5da;
+
+}
+
+
+.rest-nav1 {
+    margin-left: 200px;
+}
+
+.rest-nav2 {
+    margin-left: 23px;
+}
+
+.rest-nav3 {
+    margin-left: 23px;
+}
+
+.rest-nav4 {
+    margin-left: 23px;
+}
+
+.rest-nav5 {
+    margin-left: 23px;
+}
+
+.rest-nav6 {
+    margin-left: 23px;
+}
+
+.rest-nav7 {
+    margin-left: 23px;
+}
+
+.p-2 {
+    line-height: 10px;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.nav-seconde {
+    color: #586069;
+    white-space: nowrap;
+}
+
+.flex1 {
+    margin-bottom: 10px;
+}
+
+
+.fa-chart-pie {
+    color: forestgreen;
+}
+
+.th-class.td {
+    word-wrap: break-word;
+    line-height: 20px;
+}
+
+.td-class {
+    font-weight: bold;
+}
+
+.parag {
+    font-weight: normal;
+    padding-left: 16px;
+    font-size: 11px;
+}
+
+.table {
+
+    margin-top: -16px;
+}
+
+.pagination {
+    position: relative;
+    margin-left: 43%;
+    margin-right: auto;
+}
+
+a.page-link {
+    font-weight: bold;
+}
+
+.tippro {
+    margin-left: 30%;
+    text-decoration: none;
+}
+
+.author-zebic {
+    color: blue;
+}
+
+.container-left {
+    margin-bottom: 40px;
+    display: inline-block;
+    margin-left: 0em;
+}
+
+
+.footer-table {
+    line-height: 15px;
+}
+
+.footer-class1,
+.footer-class {
+    color: blue;
+    padding-left: 10px;
+}
+
+.fa-2x {
+    display: inline-block;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+/* .btn-group {
+    float: right;
+    margin-top: 23px;
+    margin-right: 20em;
+    background-color: #F7F8FA ;
+    border-right: 1px solid rgba(27, 31, 35, .2);
+    border-top: 1px solid rgba(27, 31, 35, .2);
+    border-bottom: 1px solid rgba(27, 31, 35, .2);
+    border-left: 1px solid rgba(27, 31, 35, .2);
+    border-radius: 1px;
+    color: black;
+    padding: 5px 24px;
+
+} */
+
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: gray;
+}
+
+.btn-group button {
+    background-color: #F7F8FA; /* Green background */
+    border: 1px solid rgba(27, 31, 35, .2); /* Green border */
+    color: black; /* White text */
+    padding: 7px 18px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: right; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group {
+    float: right;
+    margin-top: 24px;
+    margin-left: 10em;
+
+}
+
+.another-one {
+    margin-left: 5em;
+    background-color: #28a745 !important;
+    color: white !important;
+    border-radius: 3px !important;
+    font-weight: 400 !important;
+    padding-left: none !important;
+    padding-right: none !important;
+
+}
+
+.form-group {
+    width: 500px;
+}
+
+.btn-secondary.dropdown-toggle {
+    color: black;
+    background-color: #F7F8FA !important;
+    color: black !important;
+    border: 1px solid rgba(27, 31, 35, .2) !important;
+
+}
+
+th {
+    width: 15px;
+    border-right: none;
+
+}
+
+.table-bordered td, .table-bordered th {
+    /* border: 1px solid #dee2e6; */
+    border: none;
+    border-bottom: 1px solid #dee2e6 !important;
+}
+
+.fa-share-alt {
+    color: green;
+}
+
+.first-text {
+    margin-bottom: 10px;
+    width: 700px;
+    line-height: 1.25 !important;
+    font-weight: 500;
+
+
+}
+
+.table td, table th {
+    overflow: hidden;
+    padding: 0.30rem;
+    vertical-align: top;
+}
+
+p {
+    font-weight: 200 !important;
+    margin-bottom: 0.5rem;
+}
+
+.fa-times {
+    color: red;
+}
+
+.fa-comment-dots {
+    float: right;
+    vertical-align: top;
+}
+
+.table th {
+    padding: 4px !important;
+}

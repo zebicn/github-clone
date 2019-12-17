@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/c8952091fb.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <title>GitHub Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- navbar start -->
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#nav-request"><i class="fab fa-github fa-lg"></i>Why GitHub?<i
+            class="fas fa-sm fa-chevron-down"></i></a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Enterprise <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Explore<i class="fas fa-sm fa-chevron-down"></i></a>
+            </li>
+
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Marketplace</a>
+            </li>
+
+            <li class="nav-item active">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Pricing<i
+                        class="fas fa-sm fa-chevron-down"></i></a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2 input-sm" type="search" placeholder="Search GitHub" aria-label="Search">
+            <button class="btn btn-outline-1 my-2 my-sm-0" type="submit">Sign in</button>
+
+            <button class="btn btn-outline my-2 my-sm-0" type="submit">Sign Up</button>
+        </form>
+    </div>
+</nav>
+
+<!-- navbar end -->
+
+<div class="pagehead main-box container-fluid">
+
+    <div class="details-container container">
+        <span class="author">
+            <i class="fas fa-laptop-code"></i><a class="profile-link" href=""><span
+                class="username">nino-team</span></a>
+            <span class="line">/</span>
+            <a class="user2" href=""><span class="username2">nino</span></a>
+        </span>
+        <button type="button" class="btn counter-btn btn-secondary">2.1k</button>
+        <button type="button" class="btn fork-btn btn-secondary"><i class="fas fa-code-branch"></i>Fork</button>
+        <button type="button" class="btn counter-btn btn-secondary">4.1k</button>
+        <button type="button" class="btn star-btn btn-secondary"><i class="fas fa-star"></i>Star</button>
+        <button type="button" class="btn counter-btn btn-secondary">7.1k</button>
+        <button type="button" class="btn watch-btn btn-secondary"><i class="fas fa-eye"></i>Watch</button>
+    </div>
+    <div class="container">
+        <div class="navbar-dropdowns container">
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <a class="nav-item nav-link active" id="nav-code-tab" data-toggle="tab" href="#nav-code" role="tab"
+                       aria-controls="nav-code" aria-selected="true"><i class="fas fa-code"></i> Code</a>
+                    <a class="nav-item nav-link" id="nav-issue-tab" data-toggle="tab" href="#nav-issue" role="tab"
+                       aria-controls="nav-issue" aria-selected="false"><i class="fas fa-exclamation-circle"></i> Issues
+                        <span class="Counter">2,694</span> </a>
+                    <a class="nav-item nav-link" id="nav-request-tab" data-toggle="tab" href="#nav-request" role="tab"
+                       aria-controls="nav-request" aria-selected="false"><i class="fas fa-project-diagram"></i> Pull
+                        requests <span class="Counter">40</span></a>
+                    <a class="nav-item nav-link" id="nav-project-tab" data-toggle="tab" href="#nav-project" role="tab"
+                       aria-controls="nav-project" aria-selected="false"><i class="far fa-chart-bar"></i> Projects <span
+                            class="Counter">1</span></a>
+                    <a class="nav-item nav-link" id="nav-wiki-tab" data-toggle="tab" href="#nav-wiki" role="tab"
+                       aria-controls="nav-wiki" aria-selected="false"><i class="fas fa-book"></i> Wiki</a>
+                    <a class="nav-item nav-link" id="nav-security-tab" data-toggle="tab" href="#nav-security" role="tab"
+                       aria-controls="nav-security" aria-selected="false"><i class="fas fa-shield-alt"></i> Security</a>
+                    <a class="nav-item nav-link" id="nav-insights-tab" data-toggle="tab" href="#nav-insights" role="tab"
+                       aria-controls="nav-insights" aria-selected="false"><i class="fas fa-chart-line"></i> Insights</a>
+                </div>
+            </nav>
+            <div class="tab-content container-fluid" id="nav-tabContent">
+                <span class="border-top"></span>
+                <div class="tab-pane fade show active" id="nav-code" role="tabpanel" aria-labelledby="nav-code-tab">
+                    ...
+                </div>
+                <div class="tab-pane fade" id="nav-issue" role="tabpanel" aria-labelledby="nav-issue-tab">...</div>
+                <div class="tab-pane fade" id="nav-request" role="tabpanel" aria-labelledby="nav-request-tab">
+
+                    <!-- filter button -->
+                    
+                    <div class="middle-page container-fluid">
+
+                        <div class="dropdown show container">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Filters
+                            </a>
+                            
+
+                            <div class="btn-group">
+                                <button><i class="fas fa-tag"></i> Label <span class="Counter">27</span></button>
+                                <button><i class="fas fa-gavel"></i> Milestones <span class="Counter">0</span></button>
+                                <button class="another-one">New pull request</button>
+                            </div>
+                                                                                                                  
+                           
+                        </div>
+
+                        <form>
+                            <div class="form-group">
+                                <input type="search" class="form-control1" id="searchbox"
+                                       aria-describedby="searchhere" placeholder="is:pr is:open">
+                            </div>
+                        </form>
+                                                                       
+
+                    </div>
+
+                </div>
+                <div class="tab-pane fade" id="nav-project" role="tabpanel" aria-labelledby="nav-project-tab">
+
+                </div>
+                <div class="tab-pane fade" id="nav-wiki" role="tabpanel" aria-labelledby="nav-wiki-tab">...</div>
+                <div class="tab-pane fade" id="nav-security" role="tabpanel" aria-labelledby="nav-security-tab">...
+                </div>
+                <div class="tab-pane fade" id="nav-insights" role="tabpanel" aria-labelledby="nav-security-tab">...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex p-3  bd-highlight container-sm">
+        <div class="p-2 bd-highlight"><i class="fas fa-project-diagram"></i> <span class="Counter">40</span><a href="">
+            Open</a></div>
+        <div class="p-2 bd-highlight"><i class="fas fa-check"></i> <span class="Counter">3,219</span><a href=""> Closed</a>
+        </div>
+        <div class="p-2 rest-nav1 bd-highlight"><a class="nav-seconde" href="">Author</a> <i class="fas fa-sort-down"></i>
+        </div>
+        <div class="p-2 rest-nav2 bd-highlight"><a class="nav-seconde" href="">Labels</a> <i class="fas fa-sort-down"></i>
+        </div>
+        <div class="p-2 rest-nav3 bd-highlight"><a class="nav-seconde" href="">Project</a> <i class="fas fa-sort-down"></i>
+        </div>
+        <div class="p-2 rest-nav4 bd-highlight"><a class="nav-seconde" href="">Milestones</a> <i
+                class="fas fa-sort-down"></i></div>
+        <div class="p-2 rest-nav5 bd-highlight"><a class="nav-seconde" href="">Reviews</a> <i class="fas fa-sort-down"></i>
+        </div>
+        <div class="p-2 rest-nav6 bd-highlight"><a class="nav-seconde" href="">Assignee</a> <i class="fas fa-sort-down"></i>
+        </div>
+        <div class="p-2 rest-nav7 bd-highlight"><a class="nav-seconde" href="">Sort</a> <i class="fas fa-sort-down"></i>
+        </div>
+        </div>
+        
+    </div>
+    
+    <table class="table table-bordered table-hover th-lg container">
+       
+        <tbody>
+          <tr>
+            <th scope="row"><i class="fas fa-share-alt"></i></th>
+            <td class="first-text">Fix simple typo: miminum -> minimum <i class="fas fa-check-double"></i>
+                <p class="below-text">#13635 opened 4 days ago by timgates42 • Review required</p>
+            </td>
+
+
+            <td></td>
+            <td><i class="far fa-comment-dots p-2"></i></td>
+          </tr>
+          <tr>
+            <th scope="row"><i class="fas fa-share-alt"></i></th>
+            <td class="first-text">Pad the input sequence in lstm_seq2seq_restore.py <i class="fas fa-check-double"></i>
+                <p class="below-text">#13635 opened 4 days ago by timgates42 • Review required</p></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row"><i class="fas fa-share-alt"></i></th>
+            <td class="first-text">Adding- "COntinuous COin Betting" Optimization Algorithm <i class="fas fa-times"></i>
+                <p class="below-text">#13635 opened 4 days ago by timgates42 • Review required</p></td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row"><i class="fas fa-share-alt"></i></th>
+            <td class="first-text">Adding- "COntinuous COin Betting" Optimization Algorithm <i class="fas fa-times"></i>
+                <p class="below-text">#13635 opened 4 days ago by timgates42 • Review required</p></td></td>
+            <td></td>
+            <td><i class="far fa-comment-dots p-2"></i></td>
+          </tr>
+          <tr>
+            <th scope="row"><i class="fas fa-share-alt"></i></th>
+            <td class="first-text">Adding- "COntinuous COin Betting" Optimization Algorithm <i class="fas fa-times"></i>
+                <p class="below-text">#13635 opened 4 days ago by timgates42 • Review required</p></td></td>
+            <td></td>
+            <td><i class="far fa-comment-dots p-2"></i></td>
+          </tr>
+          <tr>
+            <th scope="row"><i class="fas fa-share-alt"></i></th>
+            <td class="first-text">Adding- "COntinuous COin Betting" Optimization Algorithm <i class="fas fa-times"></i>
+                <p class="below-text">#13635 opened 4 days ago by timgates42 • Review required</p></td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row"><i class="fas fa-share-alt"></i></th>
+            <td class="first-text">Adding- "COntinuous COin Betting" Optimization Algorithm <i class="fas fa-times"></i>
+                <p class="below-text">#13635 opened 4 days ago by timgates42 • Review required</p></td></td>
+            <td></td>
+            <td><i class="far fa-comment-dots p-2"></i></td>
+          </tr>
+          <tr>
+            <th scope="row"><i class="fas fa-share-alt"></i></th>
+            <td class="first-text">Adding- "COntinuous COin Betting" Optimization Algorithm <i class="fas fa-times"></i>
+                <p class="below-text">#13635 opened 4 days ago by timgates42 • Review required</p></td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row"><i class="fas fa-share-alt"></i></th>
+            <td class="first-text">Adding- "COntinuous COin Betting" Optimization Algorithm <i class="fas fa-times"></i>
+                <p class="below-text">#13635 opened 4 days ago by timgates42 • Review required</p></td></td>
+            <td></td>
+            <td><i class="far fa-comment-dots p-2"></i></td>
+          </tr>
+        </tbody>
+      </table>
+
+</div>
+
+<!-- flex container -->
+
+
+<!-- pagination-->
+
+<div class="pagination-col">
+
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="container pro-tip">
+    <div class="pro-tip text-tip">
+        <span class="tippro"><i class="fas fa-lightbulb"></i> <b>ProTip!</b> Find everything you created by searching <a
+                class="author-zebic" href="">author:zebicn</a> .</span>
+    </div>
+</div>
+
+<hr>
+
+<footer>
+    <div class="container footer-table">
+        <div class="container container-left">
+            <span class="github-inc">© 2019 GitHub, Inc.</span>
+            <a class="terms footer-class" href=""><span class="footer-class">Terms</span></a>
+            <a class="privacy footer-class" href=""><span>Privacy</span></a>
+            <a class="security footer-class" href=""><span>Security</span></a>
+            <a class="status footer-class" href=""><span>Status</span></a>
+            <a class="help footer-class" href=""><span>Help</span></a>
+
+            <i class="fab fa-github fa-2x"></i>
+
+            <a class="terms footer-class1" id="footer1" href=""><span>Contact GitHUb</span></a>
+            <a class="privacy footer-class1" id="footer1" href=""><span>Pricing</span></a>
+            <a class="security footer-class1" id="footer1" href=""><span>API</span></a>
+            <a class="status footer-class1" id="footer1" href=""><span>Training</span></a>
+            <a class="help footer-class1" id="footer1" href=""><span>Blog</span></a>
+            <a class="help footer-class1" id="footer1" href=""><span>About</span></a>
+        </div>
+    </div>
+
+</footer>
+</body>
+</html>
